@@ -1,9 +1,9 @@
 # ToDoList
-Desafio 1 da Rockeaset
+###Desafio 1 da Rockeaset
 ![Capa](https://user-images.githubusercontent.com/54756131/210099064-85ec4373-f165-4874-9e39-83f9ed31ebfe.png)
 
 # Desafio
-Nesse desafio foi utilizado conceitos do React, sendo eles: 
+Nesse desafio foi utilizado alguns dos conceitos do React, sendo eles: 
 - Estados 
 - Imnutabilidade do estado
 - Lista e chaves no ReactJS
