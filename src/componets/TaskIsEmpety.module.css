@@ -1,0 +1,34 @@
+.taskIsEmpety{
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  margin-top: 4rem;
+  flex-direction: column;
+  margin-bottom: 4rem;
+  min-width: 736px;
+  width: 50.25rem;
+}
+.taskIsEmpety h1{
+  font-size: 16px;
+  color: var(--gray-300);
+  font-weight: normal;
+  line-height: 140%;
+}
+
+.taskIsEmpety img{
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.line{
+  border-top: 1px solid var(--gray-300);
+  border-radius: 8px;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column
+}
