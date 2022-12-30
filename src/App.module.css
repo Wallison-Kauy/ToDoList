@@ -1,0 +1,94 @@
+.form{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1.875rem;
+  font-size: 1rem;
+}
+
+.form textarea {
+  background: var(--gray-500);
+  border: 0;
+  resize: none;
+  height: 3.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: var(--gray-300);
+  line-height: 1.4;
+  width: 42.25rem;
+  margin-right: 0.5rem;
+  border: 1px solid var(--gray-700);
+}
+
+.form textarea:focus{
+  border: 1px solid var(--purbleDark);
+}
+
+.form button{
+  display: flex;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  border: 0;
+  background: var(--bluedark);
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  flex-direction: row;
+  gap:8px;
+  border: 1px solid var(--gray-700);
+}
+
+.form button:hover{
+  background: var(--blue);
+}
+
+.tasklist{
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  margin-top: 4rem;
+  flex-direction: column;
+  margin-bottom: 4rem;
+  width: 49.5rem;
+
+  @media (min-width: 768px) {
+    height: 100%;
+  }
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.header h1{
+  font-size: 14px;
+  color: var(--blue);
+}
+.header h2{
+  font-size: 14px;
+  color: var(--purble);
+}
+
+.header span{
+  background: var(--gray-400);
+  color: var(--gray-200);
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-left: 10px;
+ 
+}
+
+.concluido{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

@@ -1,0 +1,25 @@
+.header {
+  background: var(--gray-700);
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header img {
+  height: 2rem;
+}
+
+img{
+  margin: 10px;
+}
+.header h1 {
+  font-size: 40px;
+  color: var(--blue);
+}
+
+.header h2{
+  color: var(--purbleDark);
+  font-size: 40px;
+}
