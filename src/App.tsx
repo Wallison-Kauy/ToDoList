@@ -12,7 +12,7 @@ const LOCAL_STORAGE_KEY = "todo:savedTasks"
 export interface Task{
   id: string;
   content: string;
-  isCompleted: boolean
+  isCompleted: boolean;
 }
 
 function App() {
@@ -77,6 +77,9 @@ function App() {
       }
       return task;
     })
+    //Ordenando a lista para as tasks true ficarem em primeiro
+    //Referencia: https://codingbeautydev.com/blog/javascript-sort-object-array-by-boolean-property/#:~:text=To%20sort%20an%20array%20of,a%20negative%20number%2C%20or%20zero.
+    newTask.sort((a, b) => Number(a.isCompleted) - Number(b.isCompleted));
     setTaskAndSave (newTask);
   }
 
