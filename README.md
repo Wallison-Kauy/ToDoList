@@ -19,9 +19,12 @@ O desafio consiste em desenvolver uma aplicação de controle de tarefas no esti
 # Getting Started
 First, run the development server:
 
+~~~
 npm run dev
 # or
 yarn dev
+~~~
 Open http://localhost:3000 with your browser to see the result.
 
-Você pode estar testando esse desafio aqui: https://to-do-list-nine-silk.vercel.app/
+# Deploy  Vercel
+Você pode estar testando esse desafio [clicando aqui.](https://to-do-list-nine-silk.vercel.app/)
