@@ -4,7 +4,7 @@
 # Desafio
 Nesse desafio foi utilizado alguns dos conceitos do React, sendo eles: 
 - Estados 
-- Imnutabilidade do estado
+- Imutabilidade do estado
 - Lista e chaves no ReactJS
 - Propriedades
 - Componetização
