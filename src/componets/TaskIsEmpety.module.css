@@ -4,6 +4,7 @@
   border-top: 1px solid var(--gray-300);
   border-radius: 8px;
   max-width: 50.25rem;
+  text-align: center;
 }
 .taskIsEmpety h1{
   font-size: 16px;
