@@ -46,8 +46,10 @@ function App() {
       content: newTaskText,
       isCompleted: false,
     }
-
-    setTaskAndSave([...tasks, CreatNewTask])
+    const orderingTasks = [...tasks];
+    orderingTasks.unshift(CreatNewTask);
+    orderingTasks.sort((a, b) => Number(a.isCompleted) - Number(b.isCompleted));
+    setTaskAndSave(orderingTasks)
     setNewTaskText('');
   }
 
